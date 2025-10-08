@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+  color: #333;
+}
+
+
+.header {
+
+    width: 100%;
+    height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 25px;
+  background: #fff;
+  box-shadow: 0 0px 10px grey;
+}
+.menu{
+    width: 20px;
+    height: 20px;
+    
+    
+}
+
+
+.logo {
+  height: 40px;
+}
+
+.search-box input {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 250px;
+}
+
+.tepa {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.header-links .oqimoqchiman {
+  color: blue;
+  font-weight: bold;
+}
+
+.header-links .kabinet {
+  color: red;
+  font-weight: bold;
+}
+
+.ruyxat {
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 40px;
+}
+
+
+.kardlar {
+    flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+}
+
+.oquvchi {
+    width: 300px;
+    height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.stars {
+
+  color: rgb(255, 217, 0);
+  font-size: 30px;
+  margin: 8px 0;
+}
+
+.new {
+  background-color: rgba(64, 64, 255, 0.938);
+  color: white;
+  width: 100px;
+  position: absolute;
+  bottom: 10px;
+  right: -30px;
+ transform: rotate(-45deg);
+}
+.new span{
+    margin: 5px;
+    display: inline-block;
+
+}
+.buton{
+    background-color: rgb(46, 46, 236);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: solid;
+    color: white;
+    box-shadow: 0px 0px 10px gray;
+}
